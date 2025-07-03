@@ -1,0 +1,31 @@
+{
+  "name": "projeto03",
+  "version": "1.0.0",
+  "description": "GymPass Style App",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+	"start": "node build/server.js",
+	"build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzwirtes/projeto03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzwirtes/projeto03/issues"
+  },
+  "homepage": "https://github.com/gzwirtes/projeto03#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0"
+  }
+}
